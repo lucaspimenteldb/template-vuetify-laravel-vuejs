@@ -1,6 +1,8 @@
 <template>
    <v-app>
-       <v-btn>oi</v-btn>
+       <v-container fluid>
+            <router-view></router-view>
+       </v-container>
    </v-app>
 </template>
 
